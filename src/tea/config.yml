@@ -1,0 +1,32 @@
+# Database
+support:
+  host: 0.0.0.0
+  database: development
+  user: root
+  passwd: root
+  port: 8080
+
+# Log settings
+log:
+  file_name: support.log
+
+# Site to perform request and then test the network status
+site: http://google.com.br/
+
+# VPN ports
+vpn:
+  routes:
+    - 0.0.0.0
+    - 0.0.0.0
+    - 0.0.0.0
+    - 0.0.0.0
+
+# Tray settings
+tray:
+  offline: src/tea/images/offline.png
+  online: src/tea/images/online.png
+  alert: src/tea/images/alert.png
+  network: src/tea/images/network.png
+
+# Default Editor to show log files
+default_editor: gedit
